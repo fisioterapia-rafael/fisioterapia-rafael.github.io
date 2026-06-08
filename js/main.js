@@ -57,26 +57,5 @@ document.addEventListener('DOMContentLoaded', () => {
     observer.observe(el);
   });
 
-  /* ── FORMULARIO: toast de confirmación ── */
-  const form = document.getElementById('cita-form');
-  const toast = document.getElementById('toast');
-
-  if (form) {
-    form.addEventListener('submit', e => {
-      e.preventDefault();
-
-      // Aquí puedes conectar tu backend, EmailJS, Formspree, etc.
-      // Por ahora muestra un toast de confirmación visual.
-
-      showToast('✅ Solicitud enviada — te contactamos pronto');
-      form.reset();
-    });
-  }
-
-  function showToast(message) {
-    toast.textContent = message;
-    toast.classList.add('show');
-    setTimeout(() => toast.classList.remove('show'), 4000);
-  }
-
 });
+

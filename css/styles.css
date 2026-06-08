@@ -546,6 +546,8 @@ section { padding: 100px 72px; }
 }
 .info-text h4 { font-family: 'Cormorant Garamond', serif; font-size: 19px; font-weight: 600; margin-bottom: 6px; }
 .info-text p  { font-size: 14px; color: var(--gray-500); line-height: 1.65; }
+.info-text p a { color: inherit; text-decoration: underline; text-underline-offset: 3px; }
+.info-text p a:hover { color: var(--accent); }
 
 /* ── FOOTER ── */
 footer {

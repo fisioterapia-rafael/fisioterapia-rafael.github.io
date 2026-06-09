@@ -522,6 +522,8 @@ section { padding: 100px 72px; }
   margin-top: 8px;
 }
 .btn-call svg { width: 18px; height: 18px; color: white; }
+.btn-whatsapp { background: #25D366; }
+.btn-whatsapp:hover { background: #1ebe5d; }
 
 .booking-info { display: flex; flex-direction: column; gap: 28px; }
 

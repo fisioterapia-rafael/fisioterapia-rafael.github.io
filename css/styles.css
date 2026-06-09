@@ -552,7 +552,7 @@ footer {
 .footer-name { font-family: 'Cormorant Garamond', serif; font-size: 22px; font-weight: 300; margin-bottom: 8px; }
 .footer-sub  { font-size: 13px; color: rgba(255,255,255,0.4); }
 .footer-right{ display: flex; flex-direction: column; align-items: flex-end; gap: 12px; }
-.footer-logo img { height: 36px; filter: brightness(0) invert(1); opacity: 0.55; }
+.footer-logo img { height: 36px; opacity: 0.75; }
 .footer-legal{ font-size: 12px; color: rgba(255,255,255,0.28); text-align: right; }
 
 /* ── LUCIDE ICONS ── */
